@@ -1,0 +1,236 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Mukta:wght@200;300;400;500;600;700;800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Mukta:wght@200;300;400;500;600;700;800&family=Permanent+Marker&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+html{
+    font-size: 62.5%;
+}
+nav{
+    box-shadow: 0 0 10px  rgba(0,0,0,.3);
+}
+.container-fluid .navbar-brand{
+    font-size: 2.5rem;
+    color: #000;
+    padding: 1.5rem;
+    font-weight: 700;
+}
+.navbar-nav{
+    margin-right: 2rem;
+}
+.navbar-nav .nav-item{
+    font-size: 1.8rem;
+    font-weight: 500;
+    padding-right: 1.5rem;   
+}
+.navbar-nav .nav-item a{
+    color: #000;
+    font-weight: 500;
+    transition: all .1s ease;
+}
+.navbar-nav .nav-item:hover a{
+    transform: scale(1.1);
+}
+#hero{
+    width: 100%;
+    height: auto;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: auto;
+}
+#hero .content{
+    padding-top: 15%;
+    padding-bottom: 10%;
+}
+#hero .content .btn{
+    margin: 2rem auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 20px 5px 20px;
+}
+#hero .content .btn a{
+    color: #000;
+    font-size: 1.8rem;
+    text-decoration: none;
+    font-weight: 700;
+    transition: all .1s ease;
+}
+#hero h2{
+    text-align: center;
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 3.9rem;
+}
+#hero p{
+    text-align: center;
+    color: #fff;
+    padding-top: 1rem;
+    letter-spacing: 1px;
+    font-size: 1.5rem;
+    font-family: "Permanent Marker", cursive;
+}
+:root{
+    --div-height: 85vh;
+    --bg-size: 100% 100%;
+}
+.center_div{
+    box-shadow: 0px 0px 25px #555;
+}
+.center_div .top_div{
+    height: calc(var(--div-height) - 40vh);
+}
+.center_div .bottom_first_div{
+    height: calc(var(--div-height) - 50vh);
+}
+.center_div .bottom_sec_div{
+    height: calc(var(--div-height) - 30vh);
+}
+#gallery{
+    margin-top: 8%;
+}
+#review .section-header{
+    font-size: 4.5rem;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid rgb(225, 67, 67);
+    width: 50%;
+}
+#review.testimonials{
+    max-width: 1000px;
+    padding: 0 15px 50px;
+    margin: 0 auto 80px auto;
+}
+#review .single-item{
+    background: #fff;
+    color: #111;
+    padding: 15px;
+    margin: 50px 15px;
+}
+.profile{
+    margin-bottom: 30px;
+    text-align: center;    
+}
+.img-area {
+	margin: 0 15px 15px 15px;
+}
+.img-area img {
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+	border: 7px solid rgb(225, 67, 67);
+}
+.content{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.content p {
+	text-align: justify;
+}
+.content p span {
+	font-size: 3rem;
+	margin-right: 20px;
+    color: rgb(225, 67, 67);
+}
+.socials i {
+	margin-right: 25px;
+}
+.bio h4 {
+	font-family: 'Berkshire Swash', cursive;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon {
+	background-color: rgb(225, 67, 67);
+}
+
+#aboutUs .section-header{
+    font-size: 4.5rem;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid rgb(225, 67, 67);
+    width: 50%;
+}
+#aboutUs p{
+    font-size: 1.7rem;
+    padding-top:  1rem;
+    font-weight: 500;
+    text-align: justify;
+}
+#contact{
+    margin-top: 2%;
+}
+#contact .row{
+    width: 100%;
+    height: auto;
+}
+#contact iframe{
+    width: 100%;
+    height: 65vh;
+}
+#contact form{
+    width: 100%;
+    height: auto;
+    margin-top: 20%;
+}
+#contact .row form .col-md-6 input{
+    height: 40px;
+    width: 100%;
+    border: 1px solid #000;
+    font-size: 2rem;
+    
+}
+#contact .row form .col-12 input{
+    height: 40px;
+    width: 100%;
+    border: 1px solid #000;
+}
+#contact .row form .form-floating textarea{
+    height: auto;
+    width: 100%;
+    border: 1px solid #000;
+    font-size: 2rem;
+}
+#contact .row form input::placeholder{
+    color: #555;
+    font-size: 1.2rem;
+}
+#contact .row .btn{
+    margin: 2rem auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 20px 5px 20px; 
+    
+}
+#contact .row .btn a{
+    color: #000;
+    font-size: 1.8rem;
+    text-decoration: none;
+    font-weight: 700;
+    transition: all .1s ease;
+}
+#footer{
+    margin-top: 1%;
+    background: rgb(225, 67, 67);
+}
+#footer p{
+    text-align: center;
+    padding-top: 1rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+#footer p span{
+    color: #fff;
+}
+#footer .social{
+    text-align: center;
+    font-size: 2rem;
+    color: #fff;
+}
+#footer .social i{
+    padding-right: 1rem;
+}
